@@ -1,9 +1,10 @@
-import { a } from './a';
-import { b } from './b';
+import { a } from "./a";
 
-class Foo {
+// rename this file to `HTTPUtils`
+
+export class Foo {
     method() {
         console.log(a)
-        console.log(b);
+        console.log(b) // and then trigger quick fix for auto import here
     }
 }
